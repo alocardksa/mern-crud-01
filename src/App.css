@@ -1,0 +1,145 @@
+
+
+  body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+  
+  position: relative;
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    min-width: 100%;
+    padding-bottom: 15px;  
+    background: #68c1eb;
+    color: #fff;
+    padding: 16px 30px; 
+}
+
+.right-button {
+    padding: 5px 10px;        /* Button padding */
+    font-size: 14px;           /* Font size */
+      left: 0; /* Aligns the h1 to the left */
+    top: 0;  /* Positions the h1 at the top */
+    margin: 0; /* Removes any default margin */
+    color: #fff;
+    background-color: #68c1eb;
+    border-color: #68c1eb;
+}
+.right-button:hover{
+  background-color:#68c1eb ;
+  border-color: #7dcbf0 ;
+  
+}
+.button-modal{
+    border-color: #ffffff;
+    color: #cecece;
+}
+.text {
+  padding: 5px 10px; 
+    font-size: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;  
+     margin: 10px 0 0;
+     font-weight: 500;
+     line-height: 1.5;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.head {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    border-top: none;
+}
+tr{
+     font-style: italic;
+}
+
+
+tr:last-child {
+    border-bottom: 1px solid #dddada; /* Add bottom border to the last <td> */
+}
+h2{
+  font: 24px "Valera Round",sans-serif;
+  font-size: large;
+}
+
+tbody {
+    background-color: #ffffff;
+    padding: 23px;
+}
+/* Styles for the warning button */
+.custom-warning-button {
+    background-color: white;
+    color: #ad9821;
+    border: none;
+    padding: px px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.custom-warning-button:hover {
+    background-color: #ffffff;
+        color: #ffe96a;
+
+}
+
+/* Styles for the danger button */
+.custom-danger-button {
+    background-color: #ffffff;
+    color: #d30404;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.custom-danger-button:hover {
+    background-color: #ffffff;
+    color: #df4141;
+}
+
+/* Optional: FontAwesomeIcon styles */
+.custom-button-icon {
+    margin-right: 6px; /* Adjust as needed */
+}
+
+.scrollable-table {
+    max-height: 350px; /* Adjust based on your needs */
+    overflow-y: scroll;
+}
+
+.scrollable-table table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+.scrollable-table th,
+.scrollable-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
